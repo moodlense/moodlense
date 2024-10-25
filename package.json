@@ -1,0 +1,29 @@
+{
+  "name": "clerk-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.21.8",
+    "@clerk/themes": "^1.7.5",
+    "autoprefixer": "10.4.14",
+    "clsx": "^2.1.1",
+    "face-api.js": "^0.22.2",
+    "framer-motion": "^11.3.29",
+    "next": "^14.2.6",
+    "postcss": "^8.4.41",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.4",
+    "typescript": "5.5.4"
+  }
+}
